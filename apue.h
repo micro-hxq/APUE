@@ -132,5 +132,6 @@ void    WAIT_CHILD(void);
 
 void    print_exit(int);
 int     my_system(const char*);
+Sigfunc* Signal(int, Sigfunc*);
 
 #endif  /* _APUE_H */
